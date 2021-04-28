@@ -11,9 +11,11 @@ pool:
 
 steps:
 - task: DotNetCoreCLI@2
+  displayName: Restore
   inputs:
-    command: 'restore'
+    command: 'restore'    
 - task: DotNetCoreCLI@2
+  displayName: Test
   inputs:
     command: 'test'
    
