@@ -20,7 +20,7 @@ namespace AzurePipeInvest
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(false, "test ci trigger");
+            Assert.IsTrue(true, "test skip ci commit");
         }
 
 
