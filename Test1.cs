@@ -20,7 +20,7 @@ namespace AzurePipeInvest
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(true, "test merge to master");
+            Assert.IsTrue(true, "test merge to master2");
         }
 
 
