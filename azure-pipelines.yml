@@ -5,26 +5,10 @@
 
 trigger:
 - master
-pr: none
 
 pool:
   vmImage: vs2017-win2016
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-steps:
-- task: DotNetCoreCLI@2
-  displayName: Restore
-  inputs:
-    command: 'restore'    
-- task: DotNetCoreCLI@2
-  displayName: Test
-  inputs:
-    command: 'test'
-   
-=======
-=======
->>>>>>> c3d4d1e25acaefb16ac0560c4a4eb8fb606a3d6c
 stages:
 - stage: A
   jobs:
@@ -37,7 +21,6 @@ stages:
   - job: B1
     steps:
       - bash: echo "B1"  
-<<<<<<< HEAD
   - job: B2
     steps:
       - bash: echo "B2"  
@@ -46,9 +29,3 @@ stages:
     steps:
       - bash: echo "B3"  
      
->>>>>>> Stashed changes
-=======
-
-
-   
->>>>>>> c3d4d1e25acaefb16ac0560c4a4eb8fb606a3d6c
