@@ -16,7 +16,7 @@ steps:
   inputs:
     command: 'restore'    
 - task: DotNetCoreCLI@2
-  displayName: Test
+  displayName: Test1
   inputs:
     command: 'test'
    
